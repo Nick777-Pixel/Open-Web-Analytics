@@ -35,12 +35,12 @@
  *
  */
 
-define('OWA_DB_TYPE', 'yourdbtypegoeshere'); // options: mysql
-define('OWA_DB_NAME', 'yourdbnamegoeshere'); // name of the database
-define('OWA_DB_HOST', 'yourdbhostgoeshere'); // host name of the server housing the database
-define('OWA_DB_USER', 'yourdbusergoeshere'); // database user
-define('OWA_DB_PORT', '3306'); // port of database
-define('OWA_DB_PASSWORD', 'yourdbpasswordgoeshere'); // database user's password
+define('OWA_DB_TYPE', 'mysql'); // options: mysql
+define('OWA_DB_NAME', 'defaultdb'); // defaultdb
+define('OWA_DB_HOST', 'db-mysql-nyc3-79246-do-user-9395545-0.b.db.ondigitalocean.com'); // db-mysql-nyc3-79246-do-user-9395545-0.b.db.ondigitalocean.com
+define('OWA_DB_USER', 'doadmin'); // doadmin
+define('OWA_DB_PORT', '25060'); // port of database
+define('OWA_DB_PASSWORD', 'wrlafpprwykg06pp'); // database user's password
 
 /**
  * AUTHENTICATION KEYS AND SALTS
@@ -59,7 +59,7 @@ define('OWA_AUTH_SALT', 'yourauthsaltgoeshere');
  * Don't forget the slash at the end.
  */
  
-define('OWA_PUBLIC_URL', 'http://domain/path/to/owa/');  
+define('OWA_PUBLIC_URL', 'https://open-web-analytics-jq9tw.ondigitalocean.app/');  
 
 /** 
  * OWA ERROR HANDLER
